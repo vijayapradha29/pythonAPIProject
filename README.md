@@ -25,3 +25,5 @@
 
 ### To Work with the Excel File:
 ``pip install openpyxl``
+### To work with Json Schema:
+``pip install jsonschema``
