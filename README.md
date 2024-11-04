@@ -17,3 +17,11 @@
 
 ### To Install the Freeze Version:
 ``pip install -r requirements.txt``
+
+### How To Run your test cases Parallely:
+``pip install pytest-xdist``
+
+``pytest -n auto .\tests\integration_test\test_create_booking_negative.py -s -v``
+
+### To Work with the Excel File:
+``pip install openpyxl``

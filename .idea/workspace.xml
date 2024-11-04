@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3538f8-71ca-4982-b778-2722685cc0c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration_test/test_create_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration_test/test_create_booking_negative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration_test/test_crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/datadriventesting/input.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/datadriventesting/test_ddt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/datadriventesting/test_ddt_better.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/demoenv/test_Sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/parallel/test_parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_crud_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration_test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_crud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for conftest.test_create_token.executor": "Run",
+    "Python tests.Python tests for test_Sample.test_auth.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2.executor": "Run",
     "Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc1.executor": "Run",
@@ -61,102 +67,113 @@
     "Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4.executor": "Run",
     "Python tests.Python tests for test_crud.TestFullCurd.test_create_booking.executor": "Run",
     "Python tests.Python tests for test_crud.TestFullCurd.test_create_token.executor": "Run",
+    "Python tests.Python tests for test_crud.TestFullCurd.test_delete_booking.executor": "Run",
     "Python tests.Python tests for test_crud.TestFullCurd.test_update_booking.executor": "Run",
+    "Python tests.Python tests for test_crud_fixture.TestFullCurd.test_delete_booking.executor": "Run",
+    "Python tests.Python tests for test_crud_fixture.TestFullCurd.test_update_booking.executor": "Run",
+    "Python tests.Python tests for test_ddt.test_post_create_token.executor": "Run",
+    "Python tests.Python tests for test_ddt.test_read_credentials_from_excel.executor": "Run",
+    "Python tests.Python tests for test_ddt_better.test_post_create_token.executor": "Run",
+    "Python tests.Python tests for test_parallel.test_3.executor": "Debug",
+    "Python tests.Python tests for test_sample.test_auth.executor": "Run",
     "Python tests.Python tests in test_crud_tc.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.customizations"
+    "settings.editor.selected.configurable": "promo.database"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\tests\datadriventesting" />
+      <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\tests" />
+      <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\tests\integration_test" />
       <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\src\helpers" />
       <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\src\constants" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4">
-    <configuration name="Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Sample.test_auth">
+    <configuration name="Python tests for test_Sample.test_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/demoenv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc1&quot;" />
+      <option name="_new_target" value="&quot;test_Sample.test_auth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ddt_better.test_post_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/datadriventesting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc2&quot;" />
+      <option name="_new_target" value="&quot;test_ddt_better.test_post_create_token&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ddt.test_post_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/datadriventesting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc3&quot;" />
+      <option name="_new_target" value="&quot;test_ddt.test_post_create_token&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ddt.test_read_credentials_from_excel" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/datadriventesting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4&quot;" />
+      <option name="_new_target" value="&quot;test_ddt.test_read_credentials_from_excel&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_crud.TestFullCurd.test_update_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_sample.test_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/demoenv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_crud.TestFullCurd.test_update_booking&quot;" />
+      <option name="_new_target" value="&quot;test_sample.test_auth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4" />
-        <item itemvalue="Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc3" />
-        <item itemvalue="Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc2" />
-        <item itemvalue="Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc1" />
-        <item itemvalue="Python tests.Python tests for test_crud.TestFullCurd.test_update_booking" />
+        <item itemvalue="Python tests.Python tests for test_Sample.test_auth" />
+        <item itemvalue="Python tests.Python tests for test_sample.test_auth" />
+        <item itemvalue="Python tests.Python tests for test_ddt_better.test_post_create_token" />
+        <item itemvalue="Python tests.Python tests for test_ddt.test_post_create_token" />
+        <item itemvalue="Python tests.Python tests for test_ddt.test_read_credentials_from_excel" />
       </list>
     </recent_temporary>
   </component>
