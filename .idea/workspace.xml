@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3538f8-71ca-4982-b778-2722685cc0c9" name="Changes" comment="adding 04112024">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/json_schema/json_schema_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/json_schema/json_schema_validationa1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/json_schema/schema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration_test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_crud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,36 +45,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for conftest.test_create_token.executor": "Run",
-    "Python tests.Python tests for json_schema_validation.TestCreateBooking.executor": "Run",
-    "Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_jsonschema.executor": "Run",
-    "Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_tc1.executor": "Run",
-    "Python tests.Python tests for test_Sample.test_auth.executor": "Run",
-    "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking.executor": "Run",
-    "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2.executor": "Run",
-    "Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc1.executor": "Run",
-    "Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc2.executor": "Run",
-    "Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc3.executor": "Run",
-    "Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4.executor": "Run",
-    "Python tests.Python tests for test_crud.TestFullCurd.test_create_booking.executor": "Run",
-    "Python tests.Python tests for test_crud.TestFullCurd.test_create_token.executor": "Run",
-    "Python tests.Python tests for test_crud.TestFullCurd.test_delete_booking.executor": "Run",
-    "Python tests.Python tests for test_crud.TestFullCurd.test_update_booking.executor": "Run",
-    "Python tests.Python tests for test_crud_fixture.TestFullCurd.test_delete_booking.executor": "Run",
-    "Python tests.Python tests for test_crud_fixture.TestFullCurd.test_update_booking.executor": "Run",
-    "Python tests.Python tests for test_ddt.test_post_create_token.executor": "Run",
-    "Python tests.Python tests for test_ddt.test_read_credentials_from_excel.executor": "Run",
-    "Python tests.Python tests for test_ddt_better.test_post_create_token.executor": "Run",
-    "Python tests.Python tests for test_parallel.test_3.executor": "Debug",
-    "Python tests.Python tests for test_sample.test_auth.executor": "Run",
-    "Python tests.Python tests in test_crud_tc.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "promo.database"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for conftest.test_create_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for json_schema_validation.TestCreateBooking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_jsonschema.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_tc1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Sample.test_auth.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking_negative.TestCreateBookingNegative.test_create_booking_negative_tc4.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestFullCurd.test_create_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestFullCurd.test_create_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestFullCurd.test_delete_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestFullCurd.test_update_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud_fixture.TestFullCurd.test_delete_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud_fixture.TestFullCurd.test_update_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_ddt.test_post_create_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_ddt.test_read_credentials_from_excel.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_ddt_better.test_post_create_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_parallel.test_3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_sample.test_auth.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_crud.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_crud_tc.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\tests\datadriventesting" />
@@ -87,7 +85,7 @@
       <recent name="C:\Users\Dhivya\PycharmProjects\pythonAPIProject\src\constants" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_jsonschema">
+  <component name="RunManager" selected="Python tests.Python tests for test_crud.TestFullCurd.test_delete_booking">
     <configuration name="Python tests for json_schema_validation.TestCreateBooking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
@@ -148,28 +146,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_sample.test_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_crud.TestFullCurd.test_delete_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAPIProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/demoenv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sample.test_auth&quot;" />
+      <option name="_new_target" value="&quot;test_crud.TestFullCurd.test_delete_booking&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_crud.TestFullCurd.test_delete_booking" />
         <item itemvalue="Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_jsonschema" />
         <item itemvalue="Python tests.Python tests for json_schema_validation.TestCreateBooking" />
         <item itemvalue="Python tests.Python tests for json_schema_validation.TestCreateBooking.test_create_booking_tc1" />
         <item itemvalue="Python tests.Python tests for test_Sample.test_auth" />
-        <item itemvalue="Python tests.Python tests for test_sample.test_auth" />
       </list>
     </recent_temporary>
   </component>
